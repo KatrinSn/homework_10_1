@@ -1,5 +1,5 @@
-from masks import get_card_number, get_mask_account
-from widget import mask_account_card, get_date
+from src.masks import get_card_number, get_mask_account
+from src.widget import mask_account_card, get_date
 
 input_number_card = "4563975548726482"
 masked_card = get_card_number(input_number_card)
@@ -18,4 +18,3 @@ print(f"Замаскированный аккаунт пользователя {
 input_datime = "2024-03-11T02:26:18.671407"
 date_correct = get_date(input_datime)
 print(date_correct)
-
