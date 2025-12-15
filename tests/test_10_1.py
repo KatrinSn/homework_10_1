@@ -18,3 +18,4 @@ input_operations = [
 ]
 sort_operations = sort_by_date(input_data)
 print(sort_operations)
+print(type(True))
